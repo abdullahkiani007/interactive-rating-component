@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:  hsl(216, 12%, 8%);
+    display: flex;
+    justify-content: center;
+    font-family: 'Overpass', sans-serif;
+    font: 2vw;
+}
+
+.main{
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: column;
+}
+.rating{
+    /* display: none; */
+}
+
+
+.main{
+    width: 28vw;
+    height: 25vw;
+    margin-top: 10vw;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    padding:20px;
+}
+.star img{
+    margin:10px;
+}
+.star{
+    background-color: hsl(210, 13%, 31%);
+    width:3vw;
+    height: 3vw;
+    display: flex;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-bottom: 2vw;
+}
+
+h1{
+    color:hsl(0, 0%, 100%);
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+p{
+    color:hsl(216, 12%, 54%);
+    margin-bottom: 2vw;
+    font-size: 1.2vw;
+    line-height: 1.9vw;
+}
+
+.number_items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:hsl(216, 12%, 54%);
+    width:3vw;
+    height: 3vw;
+    background-color: hsl(210, 13%, 31%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 2vw;
+}
+.number_items:hover{
+    background-color: hsl(25, 97%, 53%);
+    color:white
+}
+.submit{
+    color:white;
+    background-color:  hsl(25, 97%, 53%);
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+}
+
+.submit:hover{
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+}
+
+/* THankYou...... */
+.thankYou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    }
+
+.uRating p{
+    margin: 2vw;
+    color:  hsl(25, 97%, 53%);
+    background-color:  hsl(210, 13%, 31%);
+    border-radius: 20px;
+    padding: 3px 10px 3px 10px ;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.lastPara{
+    text-align: center;
+}
+
+.onClick{
+    background-color: hsl(217, 12%, 63%);
+}
+
+.hidden{
+    display: none;
+}
